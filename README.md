@@ -6,11 +6,17 @@ Extensions:
 - ExternalData>>#readWin32WideString 
 
   usage:
-  anWin32WideString := anExternalData readWin32WideString.
+  
+  aWin32WideString := anExternalData readWin32WideString. "  or:"
+  
   aString := anExternalData readWin32WideString asString.
 
 - Win32WideString class>>#fromExternalData:
+
   usage:
-Usage:
+  
+  aWin32WideString := Win32WideString fromExternalData: anExternalData. "  or:"
+  
+  aString := (Win32WideString fromExternalData: anExternalData) asString.
 
 
