@@ -4,6 +4,7 @@ In this package there are two extensions to "FFI family", for those on Windows, 
 
 Extensions: 
 - ExternalData>>#readWin32WideString 
+
   usage:
   anWin32WideString := anExternalData readWin32WideString.
   aString := anExternalData readWin32WideString asString.
