@@ -1,6 +1,6 @@
 # pharo-uFFI-readWin32WideString
 
-In this package there are two extensions to "FFI family", for those on Windows, where the return value from external function is of type wchar_t*. In Pharo wchar_t* is represented by Win32WideString. The function signature in UFFI call should indicate void* as the return value, like in: 
+In this package there are two extensions to "FFI family", for those on Windows, where the return value from external function is of C type wchar_t*. In Pharo wchar_t* is represented by Win32WideString. The function signature in UFFI call should indicate void* as the return value, like in: 
 
 #( void * functionName ( void ) )
 
